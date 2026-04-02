@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getTopMattresses } from "@/data/mattresses";
 import ATScoreCard from "@/components/ATScoreCard";
+import AffiliateDisclosureBanner from "@/components/AffiliateDisclosureBanner";
 
 export default function Home() {
   const topPicks = getTopMattresses(3);
@@ -151,6 +152,7 @@ export default function Home() {
       {/* Top Picks */}
       <section className="bg-white border-y border-sand-dark">
         <div className="max-w-4xl mx-auto px-6 py-16">
+          <AffiliateDisclosureBanner />
           <h2 className="text-2xl font-bold text-ink mb-2">
             Our top-rated mattresses
           </h2>

@@ -42,7 +42,7 @@ export const mattresses: Mattress[] = [
     price: "$1,399",
     type: "Hybrid (Latex + Coils)",
     firmness: "Firm / Medium-Firm",
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.avocadogreenmattress.com/",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/avocado-green.jpg",
     atRating: {
@@ -77,7 +77,7 @@ export const mattresses: Mattress[] = [
     price: "$1,395",
     type: "Innerspring Hybrid",
     firmness: "Available in Plush Soft, Luxury Firm, Firm",
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.saatva.com/mattresses/saatva-classic",
     affiliateNetwork: "Impact",
     imageUrl: "/mattresses/saatva-classic.jpg",
     atRating: {
@@ -113,7 +113,7 @@ export const mattresses: Mattress[] = [
     price: "$1,049",
     type: "Foam",
     firmness: "Firm / Extra Firm (flippable)",
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.brooklynbedding.com/products/the-plank-firm-mattress",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/plank-firm.jpg",
     atRating: {
@@ -148,7 +148,7 @@ export const mattresses: Mattress[] = [
     price: "$1,149",
     type: "Hybrid (Coils + Foam)",
     firmness: "Available in Softer, Luxury Firm, Firmer, Plus",
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.winkbeds.com/pages/winkbed",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/winkbed.jpg",
     atRating: {
@@ -184,8 +184,8 @@ export const mattresses: Mattress[] = [
     price: "$799",
     type: "Latex",
     firmness: "Soft, Medium, Firm",
-    affiliateUrl: "#",
-    affiliateNetwork: "Direct / Amazon",
+    affiliateUrl: "https://sleeponlatex.com/products/natural-latex-mattress",
+    affiliateNetwork: "Amazon",
     imageUrl: "/mattresses/sleep-on-latex.jpg",
     atRating: {
       feedback: 9,
@@ -219,7 +219,7 @@ export const mattresses: Mattress[] = [
     price: "$1,373",
     type: "Hybrid (Coils + Foam)",
     firmness: "Firm",
-    affiliateUrl: "#",
+    affiliateUrl: "https://helixsleep.com/products/dawn-luxe",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/helix-dawn.jpg",
     atRating: {
@@ -255,7 +255,7 @@ export const mattresses: Mattress[] = [
     price: "$1,049",
     type: "Hybrid (Latex + Coils)",
     firmness: "Medium / Firm (flippable)",
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.idlesleep.com/natural-latex-hybrid-mattress",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/idle-latex.jpg",
     atRating: {
@@ -290,7 +290,7 @@ export const mattresses: Mattress[] = [
     price: "$1,498",
     type: "Hybrid (Latex + Coils)",
     firmness: "Medium-Firm",
-    affiliateUrl: "#",
+    affiliateUrl: "https://birchliving.com/mattresses/birch-natural",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/birch-natural.jpg",
     atRating: {

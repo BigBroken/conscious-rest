@@ -67,7 +67,6 @@ export default function ReviewsPage() {
                     <span>{m.type}</span>
                     <span>{m.firmness}</span>
                     <span>From {m.price}</span>
-                    <span>{m.affiliateNetwork}</span>
                   </div>
                   <p className="text-sm text-ink-muted line-clamp-2">
                     {m.atVerdict}

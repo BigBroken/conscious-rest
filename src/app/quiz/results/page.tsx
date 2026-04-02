@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import { calculateResult } from "@/data/quiz";
 import { getMattressBySlug, getATScore } from "@/data/mattresses";
 import ATScoreCard from "@/components/ATScoreCard";
+import AffiliateDisclosureBanner from "@/components/AffiliateDisclosureBanner";
 
 function ResultsContent() {
   const searchParams = useSearchParams();
@@ -33,6 +34,8 @@ function ResultsContent() {
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
+      <AffiliateDisclosureBanner />
+
       {/* Result Header */}
       <header className="text-center mb-10">
         <p className="text-sm tracking-widest uppercase text-sage mb-3">
