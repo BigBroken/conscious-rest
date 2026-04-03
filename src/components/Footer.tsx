@@ -25,6 +25,9 @@ export default function Footer() {
               <Link href="/quiz" className="text-ink-muted hover:text-sage">
                 Find Your Mattress
               </Link>
+              <Link href="/blog" className="text-ink-muted hover:text-sage">
+                Blog
+              </Link>
             </div>
           </div>
           <div>
