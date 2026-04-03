@@ -18,6 +18,19 @@ export async function generateMetadata({
   return {
     title: `${post.title} — Conscious Rest`,
     description: post.description,
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      images: [`https://conscious.rest${post.image}`],
+      type: "article",
+      siteName: "Conscious Rest",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [`https://conscious.rest${post.image}`],
+    },
   };
 }
 

@@ -19,6 +19,19 @@ export const metadata: Metadata = {
   title: "Conscious Rest — Mattress Reviews Rooted in Body Awareness",
   description:
     "Mattress reviews informed by the Alexander Technique. We believe your body doesn't need to be held — it needs to be free. Find a mattress that supports real posture, not marketing posture.",
+  openGraph: {
+    title: "Conscious Rest — Mattress Reviews Rooted in Body Awareness",
+    description: "Mattress reviews informed by the Alexander Technique. Your body doesn't need to be held — it needs to be free.",
+    images: ["https://conscious.rest/logo.png"],
+    type: "website",
+    siteName: "Conscious Rest",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Conscious Rest — Mattress Reviews Rooted in Body Awareness",
+    description: "Mattress reviews informed by the Alexander Technique. Your body doesn't need to be held — it needs to be free.",
+    images: ["https://conscious.rest/logo.png"],
+  },
 };
 
 export default function RootLayout({
