@@ -174,12 +174,14 @@ export const blogPosts: BlogPost[] = [
     description:
       "Morning stiffness isn't normal. Neither is that body-shaped crater. Here are 5 signs your mattress is working against your body — and what to do about it.",
     date: "2026-04-02",
-    image: "/blog/sinking-vs-release.png",
-    imageAlt: "Diagram showing tension patterns reinforced by soft mattress",
+    image: "/blog/mattress-tension-patterns.png",
+    imageAlt: "Illustration of person sinking into mattress with spine under tension",
     content: `
 <p>Most people blame their body when they wake up stiff: "I'm getting older," "I slept wrong," "I need to stretch more." But what if the problem isn't your body — it's what your body has been lying on for 8 hours?</p>
 
 <p>The Alexander Technique teaches us that most of the tension we carry is <em>habitual</em> — patterns we've practiced so long we don't even feel them anymore. A mattress can either help unwind these patterns or lock them in deeper. Here are 5 signs yours is doing the latter.</p>
+
+<img src="/blog/mattress-tension-patterns.png" alt="Illustration of person sinking into mattress with spine under tension" />
 
 <h2>1. You wake up stiffer than when you went to bed</h2>
 
