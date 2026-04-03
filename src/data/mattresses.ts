@@ -492,7 +492,7 @@ export const mattresses: Mattress[] = [
     price: "$1,200",
     type: "Organic Cotton & Latex",
     firmness: "Firm",
-    affiliateUrl: "https://www.whitelotushome.com",
+    affiliateUrl: "https://www.awin1.com/cread.php?awinmid=84223&awinaffid=2839458&ued=https%3A%2F%2Fwww.whitelotushome.com%2Fmattresses%2Flatex-core-mattresses%2F",
     affiliateNetwork: "Awin",
     imageUrl: "/mattresses/white-lotus-home.jpg",
     hasImage: false,
