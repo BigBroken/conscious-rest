@@ -499,7 +499,7 @@ export const mattresses: Mattress[] = [
     rating: {
       freedom: 9,
       nonInterference: 10,
-      responsiveness: 8,
+      responsiveness: 9,
       consistency: 10,
       noHabitReinforcement: 10,
     },
