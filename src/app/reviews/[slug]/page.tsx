@@ -63,9 +63,20 @@ export default async function ReviewPage({
         </h1>
         <p className="text-lg text-ink-muted italic">{m.tagline}</p>
         <p className="text-ink-light mt-2">
-          From {m.price} &middot; Available via {m.affiliateNetwork}
+          From {m.price}
         </p>
       </header>
+
+      {/* Product Image */}
+      {m.hasImage && (
+        <section className="mb-10">
+          <img
+            src={m.imageUrl}
+            alt={m.name}
+            className="w-full rounded-lg border border-sand-dark"
+          />
+        </section>
+      )}
 
       {/* AT Score Card */}
       <section className="mb-10">

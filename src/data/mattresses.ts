@@ -17,7 +17,8 @@ export interface Mattress {
   firmness: string;         // e.g. "Medium-Firm", "Firm"
   affiliateUrl: string;     // Placeholder until real links are set up
   affiliateNetwork: string; // Which network to sign up for
-  imageUrl: string;         // Placeholder
+  imageUrl: string;
+  hasImage: boolean;         // Whether we have a real product image
   atRating: ATRating;
   atVerdict: string;        // AT-informed summary
   prosAT: string[];         // Pros from AT perspective
@@ -45,6 +46,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.avocadogreenmattress.com/",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/avocado-green.jpg",
+    hasImage: false,
     atRating: {
       feedback: 9,
       freedom: 8,
@@ -80,6 +82,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.saatva.com/mattresses/saatva-classic",
     affiliateNetwork: "Impact",
     imageUrl: "/mattresses/saatva-classic.jpg",
+    hasImage: false,
     atRating: {
       feedback: 8,
       freedom: 9,
@@ -116,6 +119,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.brooklynbedding.com/products/the-plank-firm-mattress",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/plank-firm.jpg",
+    hasImage: false,
     atRating: {
       feedback: 10,
       freedom: 8,
@@ -151,6 +155,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.winkbeds.com/pages/winkbed",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/winkbed.jpg",
+    hasImage: false,
     atRating: {
       feedback: 7,
       freedom: 8,
@@ -187,6 +192,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://sleeponlatex.com/products/natural-latex-mattress",
     affiliateNetwork: "Amazon",
     imageUrl: "/mattresses/sleep-on-latex.jpg",
+    hasImage: false,
     atRating: {
       feedback: 9,
       freedom: 9,
@@ -222,6 +228,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://helixsleep.com/products/dawn-luxe",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/helix-dawn.jpg",
+    hasImage: false,
     atRating: {
       feedback: 8,
       freedom: 8,
@@ -258,6 +265,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.idlesleep.com/natural-latex-hybrid-mattress",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/idle-latex.jpg",
+    hasImage: false,
     atRating: {
       feedback: 8,
       freedom: 8,
@@ -293,6 +301,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://birchliving.com/mattresses/birch-natural",
     affiliateNetwork: "ShareASale",
     imageUrl: "/mattresses/birch-natural.jpg",
+    hasImage: false,
     atRating: {
       feedback: 8,
       freedom: 8,
@@ -328,6 +337,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.wrightbedding.com",
     affiliateNetwork: "Awin",
     imageUrl: "/mattresses/wright-w215.jpg",
+    hasImage: true,
     atRating: {
       feedback: 7,
       freedom: 8,
@@ -364,6 +374,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.spindlemattress.com",
     affiliateNetwork: "Awin",
     imageUrl: "/mattresses/spindle-latex.jpg",
+    hasImage: false,
     atRating: {
       feedback: 9,
       freedom: 9,
@@ -399,6 +410,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.airweave.com",
     affiliateNetwork: "Awin",
     imageUrl: "/mattresses/airweave-takumi.jpg",
+    hasImage: false,
     atRating: {
       feedback: 9,
       freedom: 9,
@@ -435,6 +447,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.sleepez.com",
     affiliateNetwork: "Awin",
     imageUrl: "/mattresses/sleep-ez.jpg",
+    hasImage: false,
     atRating: {
       feedback: 9,
       freedom: 9,
@@ -470,6 +483,7 @@ export const mattresses: Mattress[] = [
     affiliateUrl: "https://www.diymattress.net",
     affiliateNetwork: "Awin",
     imageUrl: "/mattresses/diy-mattress.jpg",
+    hasImage: false,
     atRating: {
       feedback: 9,
       freedom: 9,
