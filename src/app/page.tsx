@@ -19,10 +19,11 @@ export default function Home() {
           <span className="text-sage">It needs to be free.</span>
         </h1>
         <p className="text-lg text-ink-light max-w-2xl mx-auto leading-relaxed mb-8">
-          The mattress industry sells you softness, contouring, and
-          &ldquo;spinal alignment.&rdquo; But 130 years of the Alexander
-          Technique tells us the opposite: a good mattress gets out of your
-          way and lets your body do what it already knows how to do.
+          Humans have been sleeping on firm surfaces on their sides for
+          all of history. The mattress industry convinced you that you
+          need engineered softness to do what your body already knows how
+          to do. You don&apos;t. You need a surface that stays out of the
+          way.
         </p>
         <div className="flex items-center justify-center gap-4">
           <Link
@@ -47,10 +48,9 @@ export default function Home() {
             The mattress industry has it backwards.
           </h2>
           <p className="text-ink-light leading-relaxed mb-8 max-w-3xl">
-            Every mainstream mattress review site asks the same question:
-            &ldquo;What position do you sleep in?&rdquo; Then they recommend a
-            mattress that molds to your body in that position. But here&apos;s
-            what they miss &mdash;
+            Every mainstream mattress site asks &ldquo;What position do
+            you sleep in?&rdquo; then recommends a mattress that molds to
+            your body in that position. Here&apos;s what they miss &mdash;
           </p>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-warm-light border border-sand-dark rounded-lg p-6">
@@ -60,13 +60,13 @@ export default function Home() {
               <ul className="space-y-2 text-sm text-ink-light">
                 <li>&ldquo;Memory foam contours to your natural curves&rdquo;</li>
                 <li>&ldquo;Zoned support keeps your spine aligned&rdquo;</li>
+                <li>&ldquo;Side sleepers need a softer mattress&rdquo;</li>
                 <li>&ldquo;Pressure relief at key points&rdquo;</li>
-                <li>&ldquo;Ergonomically designed for optimal posture&rdquo;</li>
               </ul>
             </div>
             <div className="bg-sage-light border border-sage/20 rounded-lg p-6">
               <h3 className="font-semibold text-sage-dark mb-2">
-                What the Alexander Technique teaches
+                What history and science show
               </h3>
               <ul className="space-y-2 text-sm text-ink-light">
                 <li>
@@ -74,16 +74,16 @@ export default function Home() {
                   habitual tension &mdash; contouring locks them in
                 </li>
                 <li>
-                  Your spine is a living, dynamic system &mdash; it doesn&apos;t
-                  need to be held in a fixed &ldquo;aligned&rdquo; position
+                  The &ldquo;ideal spine alignment&rdquo; model was derived from
+                  cadavers and never validated on living people
                 </li>
                 <li>
-                  Pressure point pain is a signal from your body &mdash; masking
-                  it with softness treats the symptom, not the cause
+                  Humans have been side-sleeping on the ground for all of
+                  history &mdash; no pressure relief needed
                 </li>
                 <li>
-                  Real posture isn&apos;t a position you hold &mdash; it&apos;s
-                  a quality of freedom and ease in your whole self
+                  You change positions 20&ndash;40 times per night &mdash; a
+                  mattress that traps you is making your muscles work
                 </li>
               </ul>
             </div>
@@ -91,41 +91,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 6 Pillars Preview */}
+      {/* How We Evaluate */}
       <section className="max-w-4xl mx-auto px-6 py-16">
         <h2 className="text-2xl font-bold text-ink mb-3">
-          How we rate mattresses: 6 pillars of body awareness
+          How we evaluate mattresses
         </h2>
         <p className="text-ink-light mb-8 max-w-3xl">
-          Instead of firmness scales and pressure maps, we evaluate every
-          mattress through the lens of the Alexander Technique. Each pillar
-          measures something the mainstream ignores.
+          One question: does this surface let your body do what it needs
+          to do during sleep? We break that into five criteria.
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           {[
             {
-              title: "Feedback",
-              desc: "Does the surface give your nervous system clear information about where your body is in space?",
-            },
-            {
-              title: "Freedom",
+              title: "Freedom of Movement",
               desc: "Can you move, roll, and reposition without fighting the surface?",
             },
             {
               title: "Non-Interference",
-              desc: "Does the mattress avoid imposing an idealized shape on your body?",
+              desc: "Does the mattress avoid imposing an engineered shape on your body?",
             },
             {
-              title: "Primary Control",
-              desc: "Does it support a free, unimpeded relationship between your head, neck, and back?",
+              title: "Responsiveness",
+              desc: "Does the surface push back, or does it absorb and trap?",
             },
             {
-              title: "Release",
-              desc: "Does the surface encourage your muscles to let go over time, not just on first contact?",
+              title: "Consistency",
+              desc: "Does it behave the same regardless of what position you're in?",
             },
             {
-              title: "Honest Sensation",
-              desc: "Does long-term use confirm what the first night suggested, or was it a showroom trick?",
+              title: "No Habit Reinforcement",
+              desc: "Does the surface avoid locking in your existing tension patterns?",
             },
           ].map((pillar) => (
             <div
@@ -157,8 +152,8 @@ export default function Home() {
             Our top-rated mattresses
           </h2>
           <p className="text-ink-light mb-8">
-            Ranked by our AT Body Awareness Score &mdash; the mattresses that
-            best support your body&apos;s natural intelligence.
+            The mattresses that best create conditions for undisturbed,
+            free-moving sleep.
           </p>
           <div className="space-y-6">
             {topPicks.map((m, i) => (
@@ -182,7 +177,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="shrink-0">
-                  <ATScoreCard rating={m.atRating} compact />
+                  <ATScoreCard rating={m.rating} compact />
                 </div>
               </Link>
             ))}
@@ -204,9 +199,10 @@ export default function Home() {
           Not sure where to start?
         </h2>
         <p className="text-ink-light mb-6 max-w-xl mx-auto">
-          Our body awareness quiz asks different questions than any mattress
-          quiz you&apos;ve taken. No firmness scales. No sleep position
-          checkboxes. Just honest questions about how you use your body.
+          Our quiz asks different questions than any mattress quiz
+          you&apos;ve taken. No firmness scales. No sleep position
+          checkboxes. Just honest questions about how you relate to your
+          body.
         </p>
         <Link
           href="/quiz"

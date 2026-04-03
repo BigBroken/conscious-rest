@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import { calculateResult } from "@/data/quiz";
-import { getMattressBySlug, getATScore } from "@/data/mattresses";
+import { getMattressBySlug, getScore } from "@/data/mattresses";
 import ATScoreCard from "@/components/ATScoreCard";
 import AffiliateDisclosureBanner from "@/components/AffiliateDisclosureBanner";
 
@@ -89,7 +89,7 @@ function ResultsContent() {
                   </h3>
                   <p className="text-sm text-ink-muted">{m.tagline}</p>
                 </div>
-                <ATScoreCard rating={m.atRating} compact />
+                <ATScoreCard rating={m.rating} compact />
               </div>
               <p className="text-sm text-ink-light mb-3">
                 {m.type} &middot; {m.firmness} &middot; From {m.price}

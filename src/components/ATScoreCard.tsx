@@ -1,12 +1,11 @@
-import { ATRating, getATScore } from "@/data/mattresses";
+import { Rating, getScore } from "@/data/mattresses";
 
 const pillars = [
-  { key: "feedback", label: "Feedback", description: "Proprioceptive clarity" },
-  { key: "freedom", label: "Freedom", description: "Ease of movement" },
+  { key: "freedom", label: "Freedom of Movement", description: "Ease of repositioning" },
   { key: "nonInterference", label: "Non-Interference", description: "Avoids imposing shape" },
-  { key: "primaryControl", label: "Primary Control", description: "Head-neck-back freedom" },
-  { key: "release", label: "Release", description: "Muscular letting-go" },
-  { key: "honestSensation", label: "Honest Sensation", description: "Long-term truth" },
+  { key: "responsiveness", label: "Responsiveness", description: "Pushes back vs absorbs" },
+  { key: "consistency", label: "Consistency", description: "Same support in all positions" },
+  { key: "noHabitReinforcement", label: "No Habit Reinforcement", description: "Doesn't lock in patterns" },
 ] as const;
 
 function ScoreBar({ value, max = 10 }: { value: number; max?: number }) {
@@ -30,10 +29,10 @@ export default function ATScoreCard({
   rating,
   compact = false,
 }: {
-  rating: ATRating;
+  rating: Rating;
   compact?: boolean;
 }) {
-  const overall = getATScore(rating);
+  const overall = getScore(rating);
 
   if (compact) {
     return (
@@ -41,7 +40,7 @@ export default function ATScoreCard({
         <div className="w-10 h-10 rounded-full bg-sage text-white flex items-center justify-center text-sm font-bold">
           {overall}
         </div>
-        <span className="text-xs text-ink-muted">AT Score</span>
+        <span className="text-xs text-ink-muted">Score</span>
       </div>
     );
   }
@@ -49,7 +48,7 @@ export default function ATScoreCard({
   return (
     <div className="bg-white border border-sand-dark rounded-lg p-6">
       <div className="flex items-center justify-between mb-5">
-        <h3 className="font-semibold text-ink">AT Body Awareness Score</h3>
+        <h3 className="font-semibold text-ink">Rest Conditions Score</h3>
         <div className="flex items-center gap-2">
           <div className="w-12 h-12 rounded-full bg-sage text-white flex items-center justify-center text-lg font-bold">
             {overall}

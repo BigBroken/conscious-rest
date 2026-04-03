@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { mattresses, getMattressBySlug, getATScore } from "@/data/mattresses";
+import { mattresses, getMattressBySlug, getScore } from "@/data/mattresses";
 import ATScoreCard from "@/components/ATScoreCard";
 import AffiliateDisclosureBanner from "@/components/AffiliateDisclosureBanner";
 import HealthDisclaimer from "@/components/HealthDisclaimer";
@@ -20,7 +20,7 @@ export async function generateMetadata({
   if (!m) return { title: "Not Found" };
   return {
     title: `${m.name} Review — Conscious Rest`,
-    description: m.atVerdict,
+    description: m.verdict,
   };
 }
 
@@ -32,8 +32,6 @@ export default async function ReviewPage({
   const { slug } = await params;
   const m = getMattressBySlug(slug);
   if (!m) notFound();
-
-  const score = getATScore(m.atRating);
 
   return (
     <article className="max-w-3xl mx-auto px-6 py-16">
@@ -62,9 +60,7 @@ export default async function ReviewPage({
           {m.name}
         </h1>
         <p className="text-lg text-ink-muted italic">{m.tagline}</p>
-        <p className="text-ink-light mt-2">
-          From {m.price}
-        </p>
+        <p className="text-ink-light mt-2">From {m.price}</p>
       </header>
 
       {/* Product Image */}
@@ -78,17 +74,15 @@ export default async function ReviewPage({
         </section>
       )}
 
-      {/* AT Score Card */}
+      {/* Score Card */}
       <section className="mb-10">
-        <ATScoreCard rating={m.atRating} />
+        <ATScoreCard rating={m.rating} />
       </section>
 
-      {/* AT Verdict */}
+      {/* Verdict */}
       <section className="mb-10 bg-sage-light border border-sage/20 rounded-lg p-6">
-        <h2 className="font-semibold text-sage-dark mb-2">
-          Our Alexander Technique Verdict
-        </h2>
-        <p className="text-ink-light leading-relaxed">{m.atVerdict}</p>
+        <h2 className="font-semibold text-sage-dark mb-2">Our Verdict</h2>
+        <p className="text-ink-light leading-relaxed">{m.verdict}</p>
       </section>
 
       {/* Overview */}
@@ -105,14 +99,12 @@ export default async function ReviewPage({
         <p className="text-ink-light leading-relaxed">{m.whyWeRecommend}</p>
       </section>
 
-      {/* Pros and Cons (AT Perspective) */}
+      {/* Pros and Cons */}
       <section className="mb-10 grid md:grid-cols-2 gap-6">
         <div className="bg-sage-light border border-sage/20 rounded-lg p-6">
-          <h3 className="font-semibold text-sage-dark mb-3">
-            What works (AT perspective)
-          </h3>
+          <h3 className="font-semibold text-sage-dark mb-3">What works</h3>
           <ul className="space-y-2">
-            {m.prosAT.map((pro) => (
+            {m.pros.map((pro) => (
               <li
                 key={pro}
                 className="text-sm text-ink-light flex items-start gap-2"
@@ -128,7 +120,7 @@ export default async function ReviewPage({
             What to watch for
           </h3>
           <ul className="space-y-2">
-            {m.consAT.map((con) => (
+            {m.cons.map((con) => (
               <li
                 key={con}
                 className="text-sm text-ink-light flex items-start gap-2"
@@ -139,18 +131,6 @@ export default async function ReviewPage({
             ))}
           </ul>
         </div>
-      </section>
-
-      {/* Constructive Rest Score */}
-      <section className="mb-10 bg-white border border-sand-dark rounded-lg p-6">
-        <h2 className="font-semibold text-ink mb-2">
-          Constructive Rest Compatibility
-        </h2>
-        <p className="text-sm text-ink-muted mb-2">
-          Can you practice semi-supine (Alexander Technique lying-down work)
-          on this mattress?
-        </p>
-        <p className="text-ink-light">{m.constructiveRestScore}</p>
       </section>
 
       {/* Best For */}
