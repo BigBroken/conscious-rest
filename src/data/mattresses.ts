@@ -484,6 +484,41 @@ export const mattresses: Mattress[] = [
     whyWeRecommend: "This is the most radically honest approach to mattress selection we've found. No marketing team decided this mattress should be 'medium-firm.' No engineer designed zones for your lumbar region. You choose every layer, every firmness level, and you can change it whenever you want. From an AT perspective, this is ideal — it puts the decision-making back in your body's hands. Start firm, notice how your body responds, adjust accordingly. The process itself develops body awareness.",
     bestFor: ["Dedicated AT practitioners", "DIY-minded buyers", "Those who want the most affordable organic latex", "People who want total control over their sleep surface"],
   },
+  {
+    slug: "white-lotus-home",
+    name: "White Lotus Home Organic Cotton & Latex Mattress",
+    brand: "White Lotus Home",
+    tagline: "Handmade organic cotton and latex since 1981. As close to the ground as a mattress gets.",
+    price: "$1,200",
+    type: "Organic Cotton & Latex",
+    firmness: "Firm",
+    affiliateUrl: "https://www.whitelotushome.com",
+    affiliateNetwork: "Awin",
+    imageUrl: "/mattresses/white-lotus-home.jpg",
+    hasImage: false,
+    rating: {
+      freedom: 9,
+      nonInterference: 10,
+      responsiveness: 8,
+      consistency: 10,
+      noHabitReinforcement: 10,
+    },
+    verdict: "White Lotus Home makes mattresses the way people made them before the mattress industry existed. Layers of organic cotton and natural latex, hand-tufted, no zones, no foam, no engineering. The result is a firm, consistent surface that doesn't try to do anything to you. This is what non-interference looks like when it's been refined for over 40 years.",
+    pros: [
+      "Zero engineered features — no zones, no contouring, no memory foam. Pure non-interference",
+      "Organic cotton and natural latex provide a firm, breathable surface you move on, not through",
+      "Handmade in the USA since 1981 — these people were doing this before the DTC mattress boom",
+      "GOTS certified organic — no synthetic flame retardants, no off-gassing",
+      "Also makes futons — even closer to ground-level sleeping if you want to go further",
+    ],
+    cons: [
+      "Firmer than most modern mattresses — if you're coming from memory foam, expect a transition period",
+      "Organic cotton layers compress over time and need refluffing — this is natural, not a defect",
+    ],
+    overview: "White Lotus Home has been handcrafting organic mattresses in New Jersey since 1981. Their Cotton & Latex mattress combines GOTS-certified organic cotton with a natural latex core, hand-tufted in a simple, no-gimmick construction. No springs, no foam, no zones. They also make organic futons, pillows, and bedding.",
+    whyWeRecommend: "White Lotus Home represents what a mattress looks like when you strip away everything the industry added in the last 40 years. No memory foam. No 'ergonomic zones.' No proprietary technology. Just organic materials, firm support, and a flat surface that lets your body organize itself. Their futon-style construction is the closest thing to how humans have slept for most of history — on a firm, natural surface at or near ground level. If our philosophy resonates with you, this is the mattress that embodies it most directly.",
+    bestFor: ["Those who want the most natural sleep surface available", "People interested in futon-style sleeping", "Eco-conscious buyers who prioritize organic certification", "Anyone transitioning toward firmer, simpler surfaces"],
+  },
 ];
 
 export function getMattressBySlug(slug: string): Mattress | undefined {
