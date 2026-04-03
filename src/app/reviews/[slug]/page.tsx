@@ -82,7 +82,15 @@ export default async function ReviewPage({
       {/* Verdict */}
       <section className="mb-10 bg-sage-light border border-sage/20 rounded-lg p-6">
         <h2 className="font-semibold text-sage-dark mb-2">Our Verdict</h2>
-        <p className="text-ink-light leading-relaxed">{m.verdict}</p>
+        <p className="text-ink-light leading-relaxed mb-4">{m.verdict}</p>
+        <a
+          href={m.affiliateUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-sage text-white px-5 py-2 rounded-md hover:bg-sage-dark transition-colors text-sm font-medium inline-block"
+        >
+          Check Price at {m.brand}
+        </a>
       </section>
 
       {/* Overview */}
@@ -132,6 +140,21 @@ export default async function ReviewPage({
           </ul>
         </div>
       </section>
+
+      {/* Mid-page CTA */}
+      <div className="mb-10 text-center">
+        <a
+          href={m.affiliateUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-sage text-white px-6 py-3 rounded-md hover:bg-sage-dark transition-colors font-medium inline-block"
+        >
+          Check Price at {m.brand}
+        </a>
+        <p className="text-xs text-ink-muted mt-2">
+          We may earn a commission if you purchase through this link.
+        </p>
+      </div>
 
       {/* Best For */}
       <section className="mb-10">
