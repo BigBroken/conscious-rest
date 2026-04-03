@@ -503,21 +503,22 @@ export const mattresses: Mattress[] = [
       consistency: 10,
       noHabitReinforcement: 10,
     },
-    verdict: "White Lotus Home makes mattresses the way people made them before the mattress industry existed. Layers of organic cotton and natural latex, hand-tufted, no zones, no foam, no engineering. The result is a firm, consistent surface that doesn't try to do anything to you. This is what non-interference looks like when it's been refined for over 40 years.",
+    verdict: "White Lotus Home makes mattresses the way people made them before the mattress industry existed. Layers of organic cotton and natural latex, hand-tufted, no zones, no foam, no engineering. The result is a firm, consistent surface that doesn't try to do anything to you. Natural latex and cotton don't degrade like foam — this is a buy-it-for-life mattress that's also light enough to actually move. This is what non-interference looks like when it's been refined for over 40 years.",
     pros: [
       "Zero engineered features — no zones, no contouring, no memory foam. Pure non-interference",
       "Organic cotton and natural latex provide a firm, breathable surface you move on, not through",
+      "Built to last — natural latex and hand-tufted cotton don't break down like foam. This mattress will outlast anything with memory foam in it",
+      "Lightweight and easy to move — no 100-pound foam block. You can actually carry this mattress",
       "Handmade in the USA since 1981 — these people were doing this before the DTC mattress boom",
       "GOTS certified organic — no synthetic flame retardants, no off-gassing",
       "Also makes futons — even closer to ground-level sleeping if you want to go further",
     ],
     cons: [
       "Firmer than most modern mattresses — if you're coming from memory foam, expect a transition period",
-      "Organic cotton layers compress over time and need refluffing — this is natural, not a defect",
     ],
     overview: "White Lotus Home has been handcrafting natural mattresses in New Jersey since 1981. Their Dreamton mattress features a 3-inch natural latex core wrapped in wool and layered with cotton — described as having 'a spring-like feel without metals.' Available in two versions: the Green Cotton Dreamton ($1,324) uses untreated green cotton, while the Pure Cotton Dreamton ($2,415) uses GOTS-certified organic cotton. Same construction, same latex core, same wool — the difference is the cotton certification. No springs, no foam, no zones.",
     whyWeRecommend: "White Lotus Home represents what a mattress looks like when you strip away everything the industry added in the last 40 years. No memory foam. No 'ergonomic zones.' No proprietary technology. Just organic materials, firm support, and a flat surface that lets your body organize itself. Their futon-style construction is the closest thing to how humans have slept for most of history — on a firm, natural surface at or near ground level. If our philosophy resonates with you, this is the mattress that embodies it most directly.",
-    bestFor: ["Those who want the most natural sleep surface available", "People interested in futon-style sleeping", "Eco-conscious buyers who prioritize organic certification", "Anyone transitioning toward firmer, simpler surfaces"],
+    bestFor: ["Buy-it-for-life buyers", "Those who want the most natural sleep surface available", "People interested in futon-style sleeping", "Eco-conscious buyers", "Anyone transitioning toward firmer, simpler surfaces"],
   },
 ];
 
