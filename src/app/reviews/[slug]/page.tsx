@@ -141,21 +141,6 @@ export default async function ReviewPage({
         </div>
       </section>
 
-      {/* Mid-page CTA */}
-      <div className="mb-10 text-center">
-        <a
-          href={m.affiliateUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-sage text-white px-6 py-3 rounded-md hover:bg-sage-dark transition-colors font-medium inline-block"
-        >
-          Check Price at {m.brand}
-        </a>
-        <p className="text-xs text-ink-muted mt-2">
-          We may earn a commission if you purchase through this link.
-        </p>
-      </div>
-
       {/* Best For */}
       <section className="mb-10">
         <h2 className="font-semibold text-ink mb-3">Best for</h2>
