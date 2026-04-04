@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
     title: "What the Alexander Technique Tells Us About Choosing a Mattress",
     description:
       "130 years of body awareness research says the mattress industry has it backwards. Here's what AT principles reveal about what your body actually needs from a sleep surface.",
-    date: "2026-04-02",
+    date: "2026-03-12",
     image: "/blog/constructive-rest-position.png",
     imageAlt: "Diagram of constructive rest semi-supine position showing proper head support and knee position",
     content: `
@@ -68,7 +68,7 @@ export const blogPosts: BlogPost[] = [
     title: "Why Memory Foam Is Working Against Your Body",
     description:
       "Memory foam feels amazing. That's the problem. Here's why the most popular mattress material is actively reinforcing your tension patterns.",
-    date: "2026-04-02",
+    date: "2026-03-19",
     image: "/blog/sinking-vs-release.png",
     imageAlt: "Comparison diagram showing body sinking into memory foam versus resting on a firm surface",
     content: `
@@ -115,7 +115,7 @@ export const blogPosts: BlogPost[] = [
     title: "The 5-Minute Body Awareness Test You Can Do on Any Mattress Tonight",
     description:
       "You don't need a pressure map or a firmness scale. Your own body is the best mattress testing tool — if you know how to listen to it.",
-    date: "2026-04-02",
+    date: "2026-03-26",
     image: "/blog/constructive-rest-position.png",
     imageAlt: "Constructive rest position for mattress testing",
     content: `
@@ -174,14 +174,13 @@ export const blogPosts: BlogPost[] = [
     description:
       "Morning stiffness isn't normal. Neither is that body-shaped crater. Here are 5 signs your mattress is working against your body — and what to do about it.",
     date: "2026-04-02",
+
     image: "/blog/mattress-tension-patterns.png",
     imageAlt: "Illustration of person sinking into mattress with spine under tension",
     content: `
 <p>Most people blame their body when they wake up stiff: "I'm getting older," "I slept wrong," "I need to stretch more." But what if the problem isn't your body — it's what your body has been lying on for 8 hours?</p>
 
 <p>The Alexander Technique teaches us that most of the tension we carry is <em>habitual</em> — patterns we've practiced so long we don't even feel them anymore. A mattress can either help unwind these patterns or lock them in deeper. Here are 5 signs yours is doing the latter.</p>
-
-<img src="/blog/mattress-tension-patterns.png" alt="Illustration of person sinking into mattress with spine under tension" />
 
 <h2>1. You wake up stiffer than when you went to bed</h2>
 
