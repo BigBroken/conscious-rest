@@ -22,8 +22,6 @@ export const blogPosts: BlogPost[] = [
 
 <p>Books under your head. Knees bent. Feet flat. Eyes open. This is <strong>constructive rest</strong> — also called semi-supine — and it's one of the most powerful tools in the AT practitioner's toolkit.</p>
 
-<img src="/blog/constructive-rest-position.png" alt="Constructive rest semi-supine position diagram" />
-
 <p>But here's what most people don't ask: <em>if the floor is so good for your body during constructive rest, what does that tell us about the surface you sleep on for 8 hours every night?</em></p>
 
 <h2>Why AT uses the floor</h2>
@@ -78,8 +76,6 @@ export const blogPosts: BlogPost[] = [
 
 <p>When you lie on memory foam, the surface slowly conforms to your body. Every curve, every contour, every tension pattern gets cradled. It feels incredible — like being held. And that's exactly the problem.</p>
 
-<img src="/blog/sinking-vs-release.png" alt="Memory foam sinking versus firm surface release comparison" />
-
 <p>F.M. Alexander discovered something 130 years ago that the mattress industry still hasn't caught up with: <strong>our sense of what feels "right" is calibrated to our habits, not to what's actually good for us.</strong> He called this <em>faulty sensory appreciation</em>.</p>
 
 <p>If you've spent years with tense shoulders, a compressed lower back, and a forward head — memory foam will conform perfectly to that pattern. And it will feel amazing. Because it's giving you exactly what you're used to. But "what you're used to" and "what your body needs" are often two very different things.</p>
@@ -108,64 +104,6 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <p>Check our <a href="/reviews">mattress reviews</a> to see how specific products score on our body awareness framework, or read about <a href="/philosophy">our full methodology</a>.</p>
-`,
-  },
-  {
-    slug: "body-awareness-mattress-test",
-    title: "The 5-Minute Body Awareness Test You Can Do on Any Mattress Tonight",
-    description:
-      "You don't need a pressure map or a firmness scale. Your own body is the best mattress testing tool — if you know how to listen to it.",
-    date: "2026-03-26",
-    image: "/blog/constructive-rest-position.png",
-    imageAlt: "Constructive rest position for mattress testing",
-    content: `
-<p>Every mattress review site tells you to check the firmness rating, look at the pressure map, and try it in the store for 15 minutes. We think those are the least useful tools available to you.</p>
-
-<p>The best mattress testing tool is one you already own: <strong>your body</strong>. You just need to know how to listen to it.</p>
-
-<p>Here's a simple test you can do tonight — on your current mattress — that will tell you more about your sleep surface than any review site ever could.</p>
-
-<h2>The test: 5 minutes, 4 observations</h2>
-
-<p><strong>Setup:</strong> Lie on your back on your mattress. Bend your knees, feet flat on the mattress, about hip-width apart. If you have a thin pillow, use it. If you have a thick pillow, fold a towel instead. This is a modified version of the Alexander Technique <em>constructive rest</em> position.</p>
-
-<img src="/blog/constructive-rest-position.png" alt="Constructive rest position setup" />
-
-<p>Close your eyes. Breathe normally. Don't try to do anything. Just notice.</p>
-
-<h3>Observation 1: Contact points (0-1 minutes)</h3>
-
-<p>Without moving, try to feel where your body touches the surface. Can you distinctly feel your shoulder blades? Your sacrum (the flat bone at the base of your spine)? The backs of your ribs?</p>
-
-<p><strong>What it means:</strong> If the contact points are clear and distinct, your mattress is providing good proprioceptive feedback. If everything feels vague and mushy — like you're floating in a cloud — the surface is absorbing the information your nervous system needs.</p>
-
-<h3>Observation 2: Sinking vs. supporting (1-2 minutes)</h3>
-
-<p>Notice whether you feel like you're <em>on</em> the surface or <em>in</em> it. Is your torso sinking below your head? Are your hips lower than your knees?</p>
-
-<p><strong>What it means:</strong> If you feel like you're lying in a trench, the mattress is too soft for your body. Your skeleton can't do its job of bearing weight because the surface gives way before the bones engage. Your muscles are working overtime to stabilize you — even though it feels "comfortable."</p>
-
-<h3>Observation 3: Freedom to move (2-3 minutes)</h3>
-
-<p>Without effort, roll to your side. How much work does it take? Do you feel yourself peeling out of an impression, or do you just... roll?</p>
-
-<p>Now roll back. Straighten one leg. Bend it again. Move your arm from your side to your chest.</p>
-
-<p><strong>What it means:</strong> If each movement feels like you're fighting the surface, the mattress is trapping you. Healthy sleep involves 20-40 position changes per night. If your mattress makes each change effortful, your muscles are working when they should be resting.</p>
-
-<h3>Observation 4: The 5-minute check (3-5 minutes)</h3>
-
-<p>Return to your back, knees bent. Stay here for the remaining time. At the 5-minute mark, notice: does your lower back feel any closer to the surface than when you started? Do your shoulders feel any wider?</p>
-
-<p><strong>What it means:</strong> On a supportive surface, your body will gradually release and spread over time. If nothing changes in 5 minutes, the surface either isn't providing the feedback needed for release, or it's conforming to your tension and preventing the process entirely.</p>
-
-<h2>The baseline test</h2>
-
-<p>Now do the same 5-minute test on the floor (carpeted, or with a yoga mat). Compare the two experiences. If you notice dramatically clearer contact points on the floor, more freedom to move, and more sense of your back releasing — your mattress is absorbing information your body needs.</p>
-
-<p>That doesn't mean you need to sleep on the floor. It means you need a mattress that preserves more of what the floor provides while adding enough cushion for a full night's sleep. That's exactly what our <a href="/reviews">highest-rated mattresses</a> do.</p>
-
-<p>Want to go deeper? Read about our <a href="/philosophy">6-pillar review framework</a> to understand the Alexander Technique principles behind each observation.</p>
 `,
   },
   {
